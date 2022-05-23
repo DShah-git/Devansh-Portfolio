@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="I, Devansh Shah am a software engineer who is able to 
+        create beautiful websites like this one. This is my person portfolio.">
+        <title>Devansh Shah Portfolio</title>
+        <link rel = "icon" href = "./Assets/TitleLogo.png" type = "image/x-icon">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="nav.css"> 
+        <link rel="stylesheet" href="3P-CSS/blobz.css">   
+        <link rel="stylesheet" href="3P-CSS/blobz.min.css">  
+    </head>
+    <body>
+            <div onclick="toggleNav()" class="nav-toggle"></div>
+            <div class="nav-container">
+                <div id="nav" class="nav flex">  
+                
+                    <div id="about" onclick="navigate('about')" class="links">
+                        <a href="#aboutme"> About</a>
+                    </div>
+                    <div id="projects" onclick="navigate('projects')" class="links">
+                        <a href="#myprojects"> Projects</a>
+                    </div>
+                    <div id="skills" onclick="navigate('skills')" class="links">
+                        <a href="#myskills"> Skills</a>
+                    </div>
+                    <div id="contact" onclick="navigate('contact')" class="links">
+                        <a href="#contactMe"> Contact Me </a>
+                    </div>
+                    <div class="links" id="nav resume">
+                        <a href="./Devansh Shah - Resume.pdf" target="_blank"> Resume </a>
+                    </div>
+                    
+                </div>
+                
+                  
+            </div>
+            
+
+            
+                       
+            <div class="header flex" id="header">
+                
+                <div class="intro">
+                    <h1><span class="name">Hi, My <span class="underline"> name</span> is <span class="accent">Devansh</span></span><br></h1>
+                    <span class="name-para">I am a Software Engineer and <br> I love to create stuff.<br> </span><a href="#aboutme"> <span class="accent highlight-link">Learn more about me </span> </a>
+                    
+                </div>
+                <div>
+                    <svg class="svgClip" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                        <clipPath id="imagePath">
+                            <path id="blob" d="M391.5,355.5Q318,461,186.5,426.5Q55,392,69,260.5Q83,129,200,87Q317,45,391,147.5Q465,250,391.5,355.5Z" fill="#d1d8e0"></path>
+                        </clipPath>    
+                    </svg>
+                    <svg class="svgClip2" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+                        <clipPath id="imagePath2">
+                            <path fill="#F2F4F8" d="M52.7,-45.9C64.8,-26.8,68.7,-5.1,65.2,16.8C61.8,38.8,50.9,61,32.1,72.2C13.3,83.4,-13.5,83.5,-35.6,73.2C-57.7,62.8,-75.1,42,-80.3,18.5C-85.6,-5,-78.7,-31.1,-63.2,-50.9C-47.8,-70.8,-23.9,-84.3,-1.8,-82.9C20.3,-81.4,40.6,-65,52.7,-45.9Z" transform="translate(100 100)" />
+                        </clipPath> 
+                    </svg>
+                    
+                    <img class="myImage" alt="image of the creator" src="./Assets/devansh -rs.jpg" >
+                    
+                    
+                </div>
+            </div> 
+
+            <div class="blobs blobs2" id="blobs">
+                <img class="blob drift1 " src="./Assets/blobs/blob1.svg" alt="backgroundblob">
+                <img class="blob drift3" src="./Assets/blobs/blob2.svg" alt="backgroundblob">
+                <img class="blob drift2 absolute " src="./Assets/blobs/blob4.svg" alt="backgroundblob">
+                <img class="blob drift1" src="./Assets/blobs/blob3.svg" alt="backgroundblob">
+                <img class="blob drift2" src="./Assets/blobs/blob4.svg" alt="backgroundblob">
+                <img class="blob drift3 " src="./Assets/blobs/blob2.svg" alt="backgroundblob">
+            </div>    
+
+
+            <div id="goTop" class="up-arrow">
+                <a href="#header">
+                    <img src="./Assets/arrow-up.svg" alt="up arrow">
+                </a>
+            </div>
+            
+            
+            
+            <div class="about" id="aboutme">
+            
+                <img src="./Assets/about.svg" >
+                <div class="about-content-responsive">
+                    <div class="about-content">
+                        <div class="card">
+                            <div class="image">
+                                <img src="./Assets/devices.svg" >
+                            </div>
+                            <div class="card-text">
+                                <p>Multiple Platforms</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image">
+                                <img src="./Assets/code.svg" >
+                            </div>
+                            <div class="card-text">
+                                <p>Clean and Readable Code</p>
+                            </div>
+                            
+                        </div>
+                        <div class="card">
+                            <div class="image">
+                                <img src="./Assets/design.svg" >
+                            </div>
+                            <div class="card-text">
+                                <p>Beautiful Designs</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                        <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </div>
+               
+                
+               
+                <div class="text-para">
+                    <p>
+                         I am <span class="accent" id="age"></span> and I have been writing code for
+                         <span class="accent" id="exp"></span> years.
+                          My love for techonology and creating led me to <span class="accent"> software development. </span>
+                          I am exploring and learning software all<span class="accent"> platforms </span>. 
+                        I would love to hear about <span class="accent">new opportunnities</span>.
+                    </p>
+                    <img src="./Assets/blobs/blob4.svg" class="floating-blobs blob float-3 ">
+                </div>
+            </div>
+            <img src="./Assets/blobs/blob2.svg" class="floating-blobs blob float-2 transform ">
+
+            <div class="projects" id="myprojects">
+                <img src="./Assets/projects.svg" >
+               
+                <div class="projectContainer">
+                    
+                    <div onclick="cardRotate(0)" class="projectCard ">
+                        <div class="front">
+                            <img class="projectImage" src="./Assets/TripEZ.PNG">
+                            <div class="click">
+                               
+                                 Click <img src="./Assets/touch-screen.svg">
+                            </div>
+                            <h2>TripEZ</h2>
+                            <p class="projectText">
+                                TripEZ is a travel planner app. It helps make travel planning easier by combining a lot of useful widgets like weather, todos, google location, etc. It also converts to pdf for offline viewing.
+                            </p>
+                             
+                        </div>
+                        <div class="back none">
+                            <img class="projectImage" src="./Assets/TripEZ.PNG">
+                            <div class="click">
+                                Click  <img src="./Assets/touch-screen.svg">
+                            </div>
+                            <h2>Tech Stack</h2>
+                            <p class="projectText">
+                                Frontend - Angular <br>
+                                Backend - Express, GraphQL <br>
+                                Database - MongoDB <br>
+                                Others - Google API, API template, DiceBears, Visual Crossing Weather     <br>
+                            </p>
+
+                            <a class="accent bold larrge-font" target="_blank"  href="https://tripez.herokuapp.com/">Live Website</a>
+                             
+                        </div>
+
+                        
+                        
+                    </div>
+                    <img src="./Assets/blobs/blob2.svg" class="floating-blobs blob float-1 transform ">
+                    <div onclick="cardRotate(1)" class="projectCard ">
+                        <div class="front">
+                            <img class="projectImage" src="./Assets/RPS.PNG">
+                            <div class="click">
+                                Click  <img src="./Assets/touch-screen.svg">
+                            </div>
+                            <h2>RPS</h2>
+                            <p class="projectText">
+                                Rock Papper Scissor Web. Its Rock Papper Scissors whats more to explain. It has single player mode for right now but soon will have online 
+                                multiplayer support.
+                            </p>
+                             
+                        </div>
+                        <div class="back none">
+                            <img class="projectImage" src="./Assets/RPS.PNG">
+                            <div class="click">
+                                Click  <img src="./Assets/touch-screen.svg">
+                            </div>
+                            <h2>Tech Stack</h2>
+                            <p class="projectText">
+                                Frontend -React <br>
+                                Others - DiceBears<br>
+                            </p>
+
+                            <a class="accent bold larrge-font" target="_blank"  href="https://rps-web.herokuapp.com/">Live Website</a>
+                             
+                        </div>
+
+                        
+                        
+                    </div>
+                    <div onclick="cardRotate(2)" class="projectCard ">
+                        <div class="front">
+                            <img class="projectImage" src="./Assets/TheReadingPartership.PNG">
+                            <div class="click">
+                                Click  <img src="./Assets/touch-screen.svg">
+                            </div>
+                            <h2>The Reading <br> Partnership</h2>
+                            <p class="projectText">
+                                The reading Partnership is non-profit organisation working towards better Literacy amongst kids. I  
+                                participated and won the hackathon to designed UI/UX for their new course delivery platform.
+                            </p>
+                             
+                        </div>
+                        <div class="back none ">
+                            <img class="projectImage" src="./Assets/TheReadingPartership.PNG">
+                            <div class="click">
+                                Click  <img src="./Assets/touch-screen.svg">
+                            </div>
+                            <h2>Tech Stack</h2>
+                            <p class="projectText">
+                                Figma <br>
+                            </p>
+                            
+                            <a class="accent bold larrge-font" target="_blank"  href="https://readingpartnership.com/">Read More</a>
+                             
+                        </div>
+
+                        
+                        
+                    </div>
+
+                  
+                  
+                        
+                        
+                    </div>
+                    <img src="./Assets/blobs/blob4.svg" class="floating-blobs blob float-3 transform ">
+                </div>
+            </div>
+
+            <div class="skills" id="myskills">
+            
+                <img src="./Assets/skills.svg" >
+
+                <h2>Web</h2><br>
+                <img src="./Assets/blobs/blob4.svg" class="floating-blobs blob float-3">
+                <div class="skill-tags">
+                    <div class="tag">
+                        <div class="logo-container">
+                            <img class="logo" src="./Assets/logos/html.png" >
+                        </div>
+                        <div class="description">
+                            HTML
+                            <div class="outer">  
+                            </div>
+                            <div class="inner">
+                                skill level
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="tag">
+                        <div class="logo-container">
+                            <img class="logo" src="./Assets/logos/css.png" >
+                        </div>
+                        <div class="description">
+                            CSS
+                            <div class="outer">  
+                            </div>
+                            <div class="inner ">
+                                skill level
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tag">
+                        <div class="logo-container">
+                            <img class="logo" src="./Assets/logos/js.png" >
+                        </div>
+                        <div class="description">
+                            JavaScript
+                            <div class="outer">  
+                            </div>
+                            <div class="inner ">
+                                skill level
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tag">
+                        <div class="logo-container">
+                            <img class="logo" src="./Assets/logos/angular.png" >
+                        </div>
+                        <div class="description">
+                            Angular
+                            <div class="outer">  
+                            </div>
+                            <div class="inner">
+                                skill level
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tag">
+                        <div class="logo-container">
+                            <img class="logo" src="./Assets/logos/react.png" >
+                        </div>
+                        <div class="description">
+                            React
+                            <div class="outer">  
+                            </div>
+                            <div class="inner ">
+                                skill level
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tag">
+                        <div class="logo-container">
+                            <img class="logo" src="./Assets/logos/node.jpg" >
+                        </div>
+                        <div class="description">
+                            NodeJS
+                            <div class="outer">  
+                            </div>
+                            <div class="inner ">
+                                skill level
+                            </div>
+                            <img src="./Assets/blobs/blob1.svg" class="floating-blobs blob float-1">
+                        </div>
+                    </div>
+                    <div class="tag">
+                        <div class="logo-container">
+                            <img class="logo" src="./Assets/logos/express.png" >
+                        </div>
+                        <div class="description">
+                            Express
+                            <div class="outer">  
+                            </div>
+                            <div class="inner ">
+                                skill level
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <br><br>
+                <h2>Desktop</h2><br>
+                <div class="skill-tags">
+                    <div class="tag">
+                        <div class="logo-container">
+                            <img class="logo" src="./Assets/logos/cs.png" >
+                        </div>
+                    
+                        <div class="description">
+                            C#
+                            <div class="outer">  
+                            </div>
+                            <div class="inner ">
+                                skill level
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tag">
+                        <div class="logo-container">
+                            <img class="logo" src="./Assets/logos/java.png" >
+                        </div>
+                        <div class="description">
+                            Java
+                            <div class="outer">  
+                            </div>
+                            <div class="inner ">
+                                skill level
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tag">
+                        <div class="logo-container">
+                            <img class="logo" src="./Assets/logos/python.png" >
+                        </div>
+                        <div class="description">
+                            Python
+                            <div class="outer">  
+                            </div>
+                            <div class="inner ">
+                                skill level
+                            </div>
+                        </div>
+                    </div>
+            
+
+                </div>
+
+                <br><br>
+                <h2>Database</h2><br>
+                <div class="skill-tags">
+                    <div class="tag">
+                        <div class="logo-container">
+                            <img class="logo" src="./Assets/logos/sql.png" >
+                        </div>
+                        <div class="description">
+                            SQL
+                            <div class="outer">  
+                            </div>
+                            <div class="inner ">
+                                skill level
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./Assets/blobs/blob4.svg" class="floating-blobs blob float-2">
+                    <div class="tag">
+                        <div class="logo-container">
+                            <img class="logo" src="./Assets/logos/nosql.png" >
+                        </div>
+                        <div class="description">
+                            NoSQL
+                            <div class="outer">  
+                            </div>
+                            <div class="inner ">
+                                skill level
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tag">
+                        <div class="logo-container">
+                            <img class="logo" src="./Assets/logos/graphqk.png" >
+                        </div>
+                        <div class="description">
+                            GraphQL
+                            <div class="outer">  
+                            </div>
+                            <div class="inner ">
+                                skill level
+                            </div>
+                        </div>
+                    </div>
+            
+
+                </div>
+            
+            </div>
+            <img src="./Assets/blobs/blob1.svg" class="floating-blobs blob float-2">
+            <div class="contact" id="contactMe">
+            
+                <img src="./Assets/contact.svg" >
+
+                
+                    <p class="text">
+                        Let's grab a coffee sometime <br>
+                        contact me at : <span class="accent"><a href="mailto:devanshshah2001@gmail.com">devanshshah2001@gmail.com</a></span>
+                        or <a href="tel:+1-905-518-1554"><span class="accent">+1-905-518-1554</span></a>
+                    </p>
+
+                    <div>
+                        <p class="text">I am also available at</p>
+                        <div class="socials">
+                            <img src="./Assets/blobs/blob4.svg" class="floating-blobs blob float-1">
+                            <div>
+                                <a href="https://www.instagram.com/devansh_127/" target="_blank">
+                                    <img src="./Assets/instagram.svg">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.linkedin.com/in/shah-dev/" target="_blank">
+                                    <img src="./Assets/linkedin.svg">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://github.com/DShah-git" target="_blank">
+                                    <img src="./Assets/github.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <form action="javascript:void(0);" class="contact-form">
+                        <div class="info">
+                            <div class="form-control">
+                                <input type="text" name="name" placeholder="Name" class="form-control-input" >
+                            </div>
+                            <div class="form-control">
+                                <input type="email" name="email" placeholder="Email" class="form-control-input" >
+                            </div>
+                        </div>
+                        <div class="form-control">
+                            <textarea name="message" rows="7" cols="12" placeholder="Message" class="message" ></textarea>
+                        </div><br>
+                    </form>
+
+                    <button class="send" >Send</button> -->
+            </div>
+
+           
+           
+
+          
+
+        <script src="./index.js"></script> 
+        <script src="./nav.js"></script> 
+        
+    </body>
+</html>
